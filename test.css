@@ -360,3 +360,129 @@
 .card__menu1 ul li div:nth-child(4) span {
   font-size: 14px;
 }
+.card__page2 {
+  width: 100%;
+  height: 450px;
+  background-color: #f3b1ec;
+}
+.card__menu2 {
+  width: 100%;
+  height: 400px;
+  background-color: #d35cc7;
+}
+.card__menu2 ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.card__menu2 ul li {
+  width: 144px;
+  height: 365px;
+  background: #ffffff;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+}
+.card__menu2 ul li div:nth-child(1) {
+  width: 100%;
+  height: 144px;
+  transform: translateY(5px);
+  border-radius: 5px;
+  overflow: hidden;
+  padding-top: 5px;
+}
+.card__menu2 ul li div:nth-child(1) img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s all linear;
+}
+.card__menu2 ul li:hover div:nth-child(1) img {
+  transform: translateY(-5px);
+}
+.card__menu2 ul li div:nth-child(2) {
+  width: 34px;
+  height: 15px;
+  background-color: red;
+  position: absolute;
+  top: 249px;
+  right: 0;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #c3840b;
+  background-color: #fee7e7;
+}
+.card__menu2 ul li div:nth-child(3) {
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.card__menu2 ul li div:nth-child(3) span {
+  font-size: 12px;
+}
+.card__menu2 ul li div:nth-child(3) span:nth-child(2) {
+  color: #c71818;
+}
+.card__menu2 ul li div:nth-child(3) span:nth-child(3) {
+  text-decoration: line-through;
+  color: #bfa5a5;
+}
+.card__menu2 ul li:hover div:nth-child(3) span:nth-child(1) {
+  color: #288ad6;
+}
+.card__menu2 ul li div:nth-child(4) {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.card__menu2 ul li div:nth-child(4) span:nth-child(1) {
+  color: #e57610;
+}
+.card__menu2 ul li div:nth-child(4) span {
+  font-size: 14px;
+}
+.card__contentfls {
+  width: 600px;
+  height: 50px;
+  margin: 0 auto;
+  transform: translateY(2px);
+  background-image: url(./img/Mua\ ngay\ -\ Gía\ rẻ\ -\ Qùa\ tặng\ nhiều\ -\ Ưu\ đãi\ hấp\ dẫn.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card__page3 {
+  width: 100%;
+  height: 300px;
+  background-color: #fee7e7;
+}
+.card__page3 div {
+  font-size: 20px;
+  transform: translate(5px, 5px);
+  animation: rest1 2s infinite;
+  font-weight: 600;
+}
+@keyframes rest1 {
+  50% {
+    color: red;
+  }
+  100% {
+    color: #288ad6;
+  }
+}
+.card__page3 .page3__menu {
+  margin-top: 10px;
+}
+.card__page3 .page3__menu ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+.card__page3 .page3__menu ul li {
+  width: 280px;
+  height: 236px;
+}
